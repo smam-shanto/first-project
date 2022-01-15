@@ -89,6 +89,75 @@ class MyApp extends StatelessWidget {
                   ),
                   child: ListTile(
                     leading: Icon(
+                      Icons.person,
+                      color: Colors.lightBlueAccent,
+                    ),
+
+                    title: Text(
+                      'https://www.linkedin.com/in/smam-shanto-17390a112/',
+                      style: TextStyle(
+                        color:Colors.lightBlueAccent,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1.0,
+                        fontSize: 20.0 
+                        ),
+                    ),
+                  ),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 20.0,
+                  ),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person_outline,
+                      color: Colors.lightBlueAccent,
+                    ),
+
+                    title: Text(
+                      'https://github.com/smam-shanto',
+                      style: TextStyle(
+                        color:Colors.lightBlueAccent,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1.0,
+                        fontSize: 20.0 
+                        ),
+                    ),
+                  ),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 20.0,
+                  ),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.play_circle_outline_sharp,
+                      color: Colors.lightBlueAccent,
+                    ),
+
+                    title: Text(
+                      'https://play.google.com/store/apps/dev?id=8285895100688042980',
+                      style: TextStyle(
+                        color:Colors.lightBlueAccent,
+                        fontWeight: FontWeight.bold,
+                        letterSpacing: 1.0,
+                        fontSize: 20.0 
+                        ),
+                    ),
+                  ),
+                ),
+                Card(
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(
+                    vertical: 10.0,
+                    horizontal: 20.0,
+                  ),
+                  child: ListTile(
+                    leading: Icon(
                       Icons.location_city,
                       color: Colors.lightBlueAccent,
                     ),
